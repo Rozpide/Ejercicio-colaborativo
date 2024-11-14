@@ -2,7 +2,7 @@ body{
     background: #BDBDBD;
 }
 .bg-image { 
-    background-image: url('https://www.w3schools.com/w3images/forestbridge.jpg'); /* La imagen de fondo */
+    background-image: url('/website/assets/img/bg.jpg'); /* La imagen de fondo */
     background-size: cover; background-position: center; background-repeat: no-repeat;
     height: 400px; /* Ajusta la altura según tus necesidades */ 
     width: 100%; /* Asegúrate de que ocupe todo el ancho */ 
