@@ -1,11 +1,24 @@
 body{
-    background: #BDBDBD;
+    background-color:black;
+    
+    margin: auto;
 }
 .bg-image { 
-    background-image: url('/website/assets/img/bg.jpg'); /* La imagen de fondo */
+    background-image: url('/website/assets/img/bg.jpg'); /* La imagen de ciudad, necesario ir añadiendo capas una a una de la ruta relativa */
     background-size: cover; background-position: center; background-repeat: no-repeat;
     height: 400px; /* Ajusta la altura según tus necesidades */ 
     width: 100%; /* Asegúrate de que ocupe todo el ancho */ 
     position: relative; /* Para que los elementos hijos se posicionen correctamente */
-    color:white
+    color: black; /* Color del texto */
+}
+.port-folio{
+    width: 55%;
+    background-color: white;
+    padding-left: 0;
+    padding-right: 0;
+    margin-top: 2%;
+}
+img  {
+    size: 60%;
+    border-radius: 50%;
 }
