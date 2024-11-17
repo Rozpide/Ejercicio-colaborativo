@@ -1,28 +1,17 @@
-body{
-    background-color:black;
-    
-    margin: auto;
-}
-.navbar {
-    margin-bottom: 0;
-    border-radius: 0;
-    margin-bottom: 0;
-    border: 0;
-    font-size: 12px !important;
-    letter-spacing: 1px;
-    font-weight: bold;
-    padding: 10px 0;
-    background-color: black;
-    color:grey!important;
-}
+
+
+
 .bg-image { 
     background-image: url('/website/assets/img/bg.jpg'); /* La imagen de ciudad, necesario ir añadiendo capas una a una de la ruta relativa */
-    background-size: cover; background-position: center; background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: repeat;
     height: 400px; /* Ajusta la altura según tus necesidades */ 
     width: 100%; /* Asegúrate de que ocupe todo el ancho */ 
     position: relative; /* Para que los elementos hijos se posicionen correctamente */
     color: black; /* Color del texto */
 }
+
 .port-folio{
     width: 60%;
     background-color: white;
@@ -31,6 +20,6 @@ body{
     margin-top: 0%;
 }
 #img  {
-    size: 60%;
+    size: 20%;
     border-radius: 50%;
 }
